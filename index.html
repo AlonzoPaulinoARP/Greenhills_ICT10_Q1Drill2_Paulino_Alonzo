@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Drill 2: Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <h1>Calculator</h1>
+    <br>
+    <form class="box">
+        <input type="number" id="num1" placeholder="First number">
+        <input type="number" id="num2" placeholder="Second number"><br>
+        <input type="button" py-click="find_sum" value="Add">
+        <input type="button" py-click="find_difference" value="Subtract">
+        <input type="button" py-click="find_product" value="Multiply">
+        <input type="button" py-click="find_quotient" value="Divide"><br>
+        <input type="button" py-click="find_power" value="Exponent">
+        <input type="button" py-click="find_floor_quotient" value="Floor Divide">
+        <input type="button" py-click="find_remainder" value="Modulus">
+        <input type="button" py-click="clear_result" value="Clear" style="color: #ff0000;">
+    </form>
+    <br><br>
+    <h1>Result</h1>
+    <div class="container" id="result" style="background-color: cyan; color: #0000ff; font-size: 40px;"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>

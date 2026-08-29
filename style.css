@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyLx3xOg9_pd3YHWjTNOMjsGkEcasDcE2wsnHx0XxXtRujJEh757rX85c&s=10);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+form {
+    text-align: center;
+    border: 20px solid #4161c2;
+    background-color: #ffffff;
+
+}
+.box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-left: 510px ;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    margin-left: 510px ;
+    border: 20px solid #ff5900;
+    text-align: center;
+}
